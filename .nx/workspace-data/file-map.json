@@ -8,60 +8,939 @@
     }
   ],
   "fileMap": {
-    "nonProjectFiles": [
-      {
-        "file": ".DS_Store",
-        "hash": "1122785694689745036"
-      },
-      {
-        "file": ".nx/workspace-data/d/server-process.json",
-        "hash": "13871793214279845041"
-      },
-      {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "8117340197053260821"
-      },
-      {
-        "file": ".nx/workspace-data/lockfile.hash",
-        "hash": "3397420534290113251"
-      },
-      {
-        "file": ".nx/workspace-data/nx_files.nxt",
-        "hash": "5086848096269947807"
-      },
-      {
-        "file": ".nx/workspace-data/parsed-lock-file.json",
-        "hash": "6615718742197495699"
-      },
-      {
-        "file": ".nx/workspace-data/project-graph.json",
-        "hash": "13600301039736767601"
-      },
-      {
-        "file": "README.md",
-        "hash": "12665925625165262951"
-      },
-      {
-        "file": "nx.json",
-        "hash": "14031185005673517353"
-      },
-      {
-        "file": "package.json",
-        "hash": "11084248589988795373"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "10295780564021962497"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "7393569248322258506"
-      },
-      {
-        "file": "utils.ts",
-        "hash": "11715237662217594641"
-      }
-    ],
-    "projectFileMap": {}
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "aoc": [
+        {
+          "file": ".DS_Store",
+          "hash": "3329269931989689007"
+        },
+        {
+          "file": ".git/index",
+          "hash": "7909610003067988302"
+        },
+        {
+          "file": ".git/objects/00/179154677b2454f041648bc513c9ba94f05bb9",
+          "hash": "6143212619744795626"
+        },
+        {
+          "file": ".git/objects/00/52a90c91bc7a52d86061ba61a74de470bc38b8",
+          "hash": "3450434595674908825"
+        },
+        {
+          "file": ".git/objects/07/a74d65c7a0d19a8bb16212a9119e260c6f80b0",
+          "hash": "8949266965034209572"
+        },
+        {
+          "file": ".git/objects/0f/9d518e2194f0742a4e939e0bb1ca46217efe60",
+          "hash": "8694529759132161509"
+        },
+        {
+          "file": ".git/objects/15/93d46a066d546576dcf0c0c68161a36ba39766",
+          "hash": "8188254104200594058"
+        },
+        {
+          "file": ".git/objects/15/9f014592d9522ff886474961889bfbbcd110f8",
+          "hash": "11273237556122600346"
+        },
+        {
+          "file": ".git/objects/1a/897dcd32810bf9ee4323d9e9a363cf5406c884",
+          "hash": "7761557438025967190"
+        },
+        {
+          "file": ".git/objects/1b/7e6a7ff9ed23f29e36fbeba5b10dc9102eba23",
+          "hash": "10984741520265304248"
+        },
+        {
+          "file": ".git/objects/20/67e2d8fc8053a5602e3c7fbe8d55c15a60f8d8",
+          "hash": "6480024485755017889"
+        },
+        {
+          "file": ".git/objects/21/c2e653a084db94acc5013b7779333f966ec03c",
+          "hash": "6133955327912692387"
+        },
+        {
+          "file": ".git/objects/24/8bb7eb08b2d34630eb665ecaf5473777222a42",
+          "hash": "7909222820642805986"
+        },
+        {
+          "file": ".git/objects/2b/f661e24c3eeb6be4b54a6145595dbee84b9fc0",
+          "hash": "11820038101251536603"
+        },
+        {
+          "file": ".git/objects/2e/43988f960b3948255a294a4f9406aab4cf0120",
+          "hash": "13363984583383874117"
+        },
+        {
+          "file": ".git/objects/39/018b903a83e43237a9e77c757e144890043cef",
+          "hash": "6920742015630797180"
+        },
+        {
+          "file": ".git/objects/4b/b301a34bda0e575db4f565052378ca6ba65497",
+          "hash": "2131891276167320028"
+        },
+        {
+          "file": ".git/objects/56/3c13275cddb0ca8e39479cd8a256512ee7e74e",
+          "hash": "4915517541033165389"
+        },
+        {
+          "file": ".git/objects/56/8879c1c85c27b90907c8339e5e7e3f6bf095b5",
+          "hash": "13979718309636427155"
+        },
+        {
+          "file": ".git/objects/6b/a577cf5a4e4d6a25400708bef06f65a7f3fb00",
+          "hash": "5158438807745611365"
+        },
+        {
+          "file": ".git/objects/6f/49260720b961386cef20515aad2022dc3fdf64",
+          "hash": "1086141534199306835"
+        },
+        {
+          "file": ".git/objects/71/4fa82ed40e437d603c39ca78aa3b0e2c654c30",
+          "hash": "2628271627014755748"
+        },
+        {
+          "file": ".git/objects/78/6187978bbb5582ea47aab8139f867c37ae316e",
+          "hash": "16620909342344267298"
+        },
+        {
+          "file": ".git/objects/79/d13ef2306958630e63188b52eedc7bca6164f6",
+          "hash": "8536155332153616293"
+        },
+        {
+          "file": ".git/objects/81/0094dac592df8dc74be577db99f620b4a1a645",
+          "hash": "14347932401921923624"
+        },
+        {
+          "file": ".git/objects/84/ad46668648515afd6b6cb3a0cc7fe767d5714a",
+          "hash": "16631844215155972619"
+        },
+        {
+          "file": ".git/objects/85/d740160c8adbc7bbee742c5bb76ad8d087c0e9",
+          "hash": "8132314660222645763"
+        },
+        {
+          "file": ".git/objects/8c/14b1175615c6d17de73f9c57c68c8dbbfa7f88",
+          "hash": "8774653253417129363"
+        },
+        {
+          "file": ".git/objects/96/ec4224184e02ff111099e22c5902ff7f5a301c",
+          "hash": "936236051763128420"
+        },
+        {
+          "file": ".git/objects/9c/031a0c52f1c1294fdd028970d06d9806bb3470",
+          "hash": "4860884561306286524"
+        },
+        {
+          "file": ".git/objects/a2/0fd70f4cf408ef25088d62839bc68e44f58797",
+          "hash": "13343867465832253678"
+        },
+        {
+          "file": ".git/objects/b2/cfbb6fa0c7448b33dbf703a815a8c68822ad46",
+          "hash": "4098669844737065585"
+        },
+        {
+          "file": ".git/objects/c9/0ac8bb9a8fbc42467d01721a229c009c701eaa",
+          "hash": "12604456154064333630"
+        },
+        {
+          "file": ".git/objects/d5/21806c2d4b25fb89e514b12a6877bcb8eab959",
+          "hash": "18335333134395862980"
+        },
+        {
+          "file": ".git/objects/dd/0c51b0ecc285fd2338e427f08a8d8f949ef07a",
+          "hash": "5746282327125397886"
+        },
+        {
+          "file": ".git/objects/df/ca0b1513e0d5eaf3371ae5a94ecd10bd08c720",
+          "hash": "6053436943777690331"
+        },
+        {
+          "file": ".git/objects/f0/50478ec9035504590df554a1278079430dfa00",
+          "hash": "4985609758123956502"
+        },
+        {
+          "file": ".git/objects/f6/f1888e08f64ed56dadf8b6744f01e26c809119",
+          "hash": "11192945175739502332"
+        },
+        {
+          "file": ".git/objects/fb/020eeb8a72dd7c43b2ce7791d79af32c981917",
+          "hash": "14453941118234151725"
+        },
+        {
+          "file": ".nx/cache/run.json",
+          "hash": "14602554629145433183"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/11776030255316021449",
+          "hash": "12881840969131585798"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/12297497301114221822",
+          "hash": "6930565762386119589"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/12340236463698199711",
+          "hash": "15574638200987492312"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/12421843472120552903",
+          "hash": "15929690767226302177"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/12881240802318067360",
+          "hash": "7068604916523625360"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/12940447069946519363",
+          "hash": "15606782176230240651"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/13096698016298075632",
+          "hash": "4899932943681962660"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/13463816293780505399",
+          "hash": "15797690141283648342"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/13872849724728727590",
+          "hash": "8200702868236341495"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/14675685414494325376",
+          "hash": "15406020456927331307"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/15057623610036760227",
+          "hash": "6652313870087675569"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/15594731289630978716",
+          "hash": "18196119902375553926"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/1620202174879091192",
+          "hash": "12881840969131585798"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/16264775099286737204",
+          "hash": "6072695233292270999"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/17108505485438368085",
+          "hash": "15554965247822659377"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/1720529383242575383",
+          "hash": "15406020456927331307"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/240809124373460030",
+          "hash": "1542134541225890100"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/2758666225004184573",
+          "hash": "1383664805400723346"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/5411817606452989794",
+          "hash": "1542134541225890100"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/6354613202576387700",
+          "hash": "11473940390460018982"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/682254597677005939",
+          "hash": "11893854257841708985"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/6983864023900910284",
+          "hash": "10974743139844147111"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/757674684101868989",
+          "hash": "15406020456927331307"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/8228059948048480641",
+          "hash": "12148894608630239474"
+        },
+        {
+          "file": ".nx/workspace-data/29BC536A-CA38-5D61-AE15-FF5179499869.db-shm",
+          "hash": "10981251654969626630"
+        },
+        {
+          "file": ".nx/workspace-data/29BC536A-CA38-5D61-AE15-FF5179499869.db-wal",
+          "hash": "10088594489319742359"
+        },
+        {
+          "file": ".nx/workspace-data/d/server-process.json",
+          "hash": "5097157128968207289"
+        },
+        {
+          "file": ".nx/workspace-data/file-map.json",
+          "hash": "15684778592446813674"
+        },
+        {
+          "file": ".nx/workspace-data/nx_files.nxt",
+          "hash": "14360608479290904655"
+        },
+        {
+          "file": ".nx/workspace-data/project-graph.json",
+          "hash": "633478345389517500"
+        },
+        {
+          "file": "README.md",
+          "hash": "12665925625165262951"
+        },
+        {
+          "file": "day-1/a.data.sample.txt",
+          "hash": "6101061700825657739"
+        },
+        {
+          "file": "day-1/a.data.txt",
+          "hash": "7490904310972138822"
+        },
+        {
+          "file": "day-1/a.ts",
+          "hash": "17156655232116003752"
+        },
+        {
+          "file": "day-1/b.data.sample.txt",
+          "hash": "6101061700825657739"
+        },
+        {
+          "file": "day-1/b.data.txt",
+          "hash": "7490904310972138822"
+        },
+        {
+          "file": "day-1/b.ts",
+          "hash": "7773694539825921200"
+        },
+        {
+          "file": "day-10/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-10/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-10/a.ts",
+          "hash": "15543714072833844779"
+        },
+        {
+          "file": "day-10/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-10/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-10/b.ts",
+          "hash": "7938707122017848887"
+        },
+        {
+          "file": "day-11/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-11/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-11/a.ts",
+          "hash": "6420134170887779552"
+        },
+        {
+          "file": "day-11/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-11/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-11/b.ts",
+          "hash": "8689147482932456831"
+        },
+        {
+          "file": "day-12/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-12/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-12/a.ts",
+          "hash": "13828348495380334435"
+        },
+        {
+          "file": "day-12/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-12/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-12/b.ts",
+          "hash": "4535908401418685225"
+        },
+        {
+          "file": "day-13/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-13/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-13/a.ts",
+          "hash": "6077006343173397313"
+        },
+        {
+          "file": "day-13/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-13/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-13/b.ts",
+          "hash": "9250399558355404911"
+        },
+        {
+          "file": "day-14/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-14/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-14/a.ts",
+          "hash": "2265158319923789595"
+        },
+        {
+          "file": "day-14/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-14/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-14/b.ts",
+          "hash": "15291043292050624959"
+        },
+        {
+          "file": "day-15/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-15/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-15/a.ts",
+          "hash": "9741212689113310130"
+        },
+        {
+          "file": "day-15/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-15/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-15/b.ts",
+          "hash": "2236060770672823084"
+        },
+        {
+          "file": "day-16/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-16/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-16/a.ts",
+          "hash": "2886918289638801296"
+        },
+        {
+          "file": "day-16/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-16/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-16/b.ts",
+          "hash": "13272467772022192735"
+        },
+        {
+          "file": "day-17/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-17/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-17/a.ts",
+          "hash": "1601500235676639721"
+        },
+        {
+          "file": "day-17/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-17/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-17/b.ts",
+          "hash": "13253543452031565184"
+        },
+        {
+          "file": "day-18/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-18/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-18/a.ts",
+          "hash": "4887211474038927820"
+        },
+        {
+          "file": "day-18/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-18/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-18/b.ts",
+          "hash": "6089497947498074150"
+        },
+        {
+          "file": "day-19/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-19/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-19/a.ts",
+          "hash": "12687771315321018275"
+        },
+        {
+          "file": "day-19/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-19/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-19/b.ts",
+          "hash": "16449632586575085915"
+        },
+        {
+          "file": "day-2/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-2/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-2/a.ts",
+          "hash": "17401117237641191454"
+        },
+        {
+          "file": "day-2/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-2/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-2/b.ts",
+          "hash": "14027507330058243753"
+        },
+        {
+          "file": "day-20/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-20/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-20/a.ts",
+          "hash": "10564758865177021758"
+        },
+        {
+          "file": "day-20/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-20/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-20/b.ts",
+          "hash": "15822545311030383358"
+        },
+        {
+          "file": "day-21/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-21/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-21/a.ts",
+          "hash": "16301315846954183041"
+        },
+        {
+          "file": "day-21/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-21/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-21/b.ts",
+          "hash": "4835677726793133010"
+        },
+        {
+          "file": "day-22/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-22/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-22/a.ts",
+          "hash": "12684496160352403157"
+        },
+        {
+          "file": "day-22/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-22/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-22/b.ts",
+          "hash": "12626244514496568658"
+        },
+        {
+          "file": "day-23/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-23/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-23/a.ts",
+          "hash": "10465787567801802059"
+        },
+        {
+          "file": "day-23/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-23/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-23/b.ts",
+          "hash": "15740852205114851864"
+        },
+        {
+          "file": "day-24/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-24/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-24/a.ts",
+          "hash": "2620742444343549761"
+        },
+        {
+          "file": "day-24/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-24/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-24/b.ts",
+          "hash": "10514610714601170318"
+        },
+        {
+          "file": "day-25/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-25/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-25/a.ts",
+          "hash": "16937834482933404255"
+        },
+        {
+          "file": "day-25/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-25/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-25/b.ts",
+          "hash": "925291818600890906"
+        },
+        {
+          "file": "day-3/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-3/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-3/a.ts",
+          "hash": "12944768057903555664"
+        },
+        {
+          "file": "day-3/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-3/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-3/b.ts",
+          "hash": "8616417594283100791"
+        },
+        {
+          "file": "day-4/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-4/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-4/a.ts",
+          "hash": "10033676858626584165"
+        },
+        {
+          "file": "day-4/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-4/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-4/b.ts",
+          "hash": "9766397965446877734"
+        },
+        {
+          "file": "day-5/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-5/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-5/a.ts",
+          "hash": "15833431534666137262"
+        },
+        {
+          "file": "day-5/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-5/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-5/b.ts",
+          "hash": "4814197983950328643"
+        },
+        {
+          "file": "day-6/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-6/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-6/a.ts",
+          "hash": "16934411085176435572"
+        },
+        {
+          "file": "day-6/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-6/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-6/b.ts",
+          "hash": "14398414071365312662"
+        },
+        {
+          "file": "day-7/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-7/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-7/a.ts",
+          "hash": "16902701724106031796"
+        },
+        {
+          "file": "day-7/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-7/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-7/b.ts",
+          "hash": "2902224286358849102"
+        },
+        {
+          "file": "day-8/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-8/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-8/a.ts",
+          "hash": "5487403014049868667"
+        },
+        {
+          "file": "day-8/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-8/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-8/b.ts",
+          "hash": "8568992949921109906"
+        },
+        {
+          "file": "day-9/a.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-9/a.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-9/a.ts",
+          "hash": "15311999102645474347"
+        },
+        {
+          "file": "day-9/b.data.sample.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-9/b.data.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "day-9/b.ts",
+          "hash": "2571960353379558623"
+        },
+        {
+          "file": "eslint.config.js",
+          "hash": "6337343679209899982",
+          "deps": [
+            "npm:globals",
+            "npm:@eslint/js",
+            "npm:typescript-eslint"
+          ]
+        },
+        {
+          "file": "nx.json",
+          "hash": "14031185005673517353"
+        },
+        {
+          "file": "package.json",
+          "hash": "11084248589988795373",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:@nx/workspace",
+            "npm:@types/node",
+            "npm:eslint",
+            "npm:globals",
+            "npm:nx",
+            "npm:tsx",
+            "npm:typescript",
+            "npm:typescript-eslint",
+            "npm:chalk",
+            "npm:ts-aoc-starter"
+          ]
+        },
+        {
+          "file": "pnpm-lock.yaml",
+          "hash": "10295780564021962497"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "7393569248322258506"
+        },
+        {
+          "file": "utils.ts",
+          "hash": "11715237662217594641",
+          "deps": [
+            "npm:chalk"
+          ]
+        }
+      ]
+    }
   }
 }
